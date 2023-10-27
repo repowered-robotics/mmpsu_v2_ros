@@ -1,0 +1,10 @@
+launch:
+
+- node:
+  pkg: "mmpsu_v2"
+  exec: "mmpsu_v2_node"
+  name: "mmpsu"
+  namespace: "mmpsu"
+  parameters: 
+    - status_period: 0.1
+    - uart_path: "/dev/ttyS0"
